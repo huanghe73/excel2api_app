@@ -1,0 +1,28 @@
+{
+  "python.jediEnabled": false,
+  "python.venvPath": "C:\\Anaconda3\\envs",
+  "python.pythonPath": "C:\\Anaconda3\\envs\\excel2api\\python.exe",
+  "python.workspaceSymbols.ctagsPath": "C:\\My Files\\programs\\ctags58\\ctags.exe",
+  "python.autoComplete.addBrackets": true,
+  "python.formatting.provider": "autopep8",
+  "python.formatting.autopep8Path": "C:\\Anaconda3\\Scripts\\autopep8.exe",
+  "autoDocstring.docstringFormat": "sphinx",
+  "files.trimTrailingWhitespace": true,
+  "python.linting.pylintEnabled": true,
+  "python.linting.mypyEnabled": true,
+  "python.linting.mypyArgs": [
+    "--ignore-missing-imports",
+    "--follow-imports=silent",
+    "--disallow-untyped-defs"
+  ],
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true,
+  "python.unitTest.pyTestArgs": [
+    "-svv",
+    "-ra",
+    "./"
+  ],
+  "python.unitTest.unittestEnabled": false,
+  "python.unitTest.nosetestsEnabled": false,
+  "python.unitTest.pyTestEnabled": true
+}
