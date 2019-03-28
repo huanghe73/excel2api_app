@@ -111,3 +111,4 @@ app.db
 
 # specific to this project
 test.ipynb
+app/static/uploads
