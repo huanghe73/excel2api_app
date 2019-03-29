@@ -1,8 +1,12 @@
-from flask import render_template
+from flask import render_template, g
 from flask_appbuilder.models.sqla.interface import SQLAInterface
+from flask_appbuilder.models.sqla.filters import FilterEqualFunction
 from flask_appbuilder import ModelView
 from app import appbuilder, db
 from app.models import Project, ProjectFiles
+
+def get_user_id():
+    return g.user.id
 
 """
     Create your Views::
@@ -30,6 +34,7 @@ class ProjectFilesModelView(ModelView):
 
 class ProjectModelView(ModelView):
     datamodel = SQLAInterface(Project)
+    base_filters = [['created_by_fk', FilterEqualFunction, get_user_id]]
     related_views = [ProjectFilesModelView]
 
     show_template = 'appbuilder/general/model/show_cascade.html'
