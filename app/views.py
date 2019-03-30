@@ -25,9 +25,11 @@ def get_user_id():
 class ProjectFilesModelView(ModelView):
     datamodel = SQLAInterface(ProjectFiles)
 
+    show_template = 'show_project_files.html'
+
     label_columns = {'file_name': 'File Name', 'download': 'Download'}
-    add_columns = ['file', 'description','project']
-    edit_columns = ['file', 'description','project']
+    add_columns = ['file', 'description', 'project']
+    edit_columns = ['file', 'description', 'project']
     list_columns = ['file_name', 'download']
     show_columns = ['file_name', 'download']
 
