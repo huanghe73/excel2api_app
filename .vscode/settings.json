@@ -1,7 +1,7 @@
 {
   "python.jediEnabled": false,
   "python.venvPath": "C:\\Anaconda3\\envs",
-  "python.pythonPath": "C:\\Anaconda3\\envs\\excel2api\\python.exe",
+  "python.pythonPath": "C:\\Anaconda3\\envs\\excel2api_app\\python.exe",
   "python.workspaceSymbols.ctagsPath": "C:\\My Files\\programs\\ctags58\\ctags.exe",
   "python.autoComplete.addBrackets": true,
   "python.formatting.provider": "autopep8",

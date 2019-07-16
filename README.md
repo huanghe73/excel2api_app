@@ -4,7 +4,8 @@
 
 ```shell
 conda activate excel2api_app
-fabmanager run
+set FLASK_APP=app
+flask fab run
 ```
 
 ## JS files
