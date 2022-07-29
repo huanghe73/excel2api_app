@@ -2,4 +2,4 @@ mypy==0.660
 flask==1.1.1
 toolz==0.10.0
 pytest==4.3.1
-Flask-AppBuilder==2.1.6
+Flask-AppBuilder==4.1.3
